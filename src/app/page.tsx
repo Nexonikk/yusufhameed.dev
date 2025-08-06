@@ -59,7 +59,7 @@ export default function Page() {
           <div className="flex gap-3">
             <Button variant="outline" asChild>
               <a
-                href="https://drive.google.com/file/d/14S0bDQBV87ctuIRUy82EC4Gw_BF_WUUk/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1My2ANIquFQc8TdHvZp-A53SqiPyCVbrO/view?usp=drivesdk"
                 target="_blank"
                 rel="noopener noreferrer"
               >
