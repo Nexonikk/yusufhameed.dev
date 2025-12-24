@@ -42,10 +42,3 @@ Real-time weather forecasts with dark mode and city search.
 `Next.js · OpenWeather API · TanStack Query · TailwindCSS`
 
 ## 🚀 Getting Started Locally
-
-```bash
-git clone https://github.com/yusufhameed911/portfolio
-cd portfolio
-pnpm install
-pnpm dev
-```

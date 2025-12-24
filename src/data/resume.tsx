@@ -64,14 +64,32 @@ export const DATA = {
 
   work: [
     {
+      company: "Xelron AI",
+      href: "https://www.xelron.in/",
+      badges: ["Freelance"],
+      location: "Remote",
+      title: "Software Developer AI",
+      logoUrl: "/xelron_logo.jpg",
+      start: "Oct 2025",
+      end: "Present",
+      description: [
+        "Design and build standalone backend and system-level tasks used for training and evaluating Large Language Models (LLMs) within Snorkel AI’s Terminus / Terminal-Bench framework.",
+        "Create Docker-based Linux (Ubuntu) execution environments with pinned dependencies to ensure reproducible, deterministic task runs.",
+        "Implement backend logic, data transformations, and CLI-based workflows using Node.js, Python, Bash, and Linux tooling.",
+        "Run CI and LLM-as-Judge evaluations locally and iterate based on automated and peer review feedback to meet benchmark quality standards.",
+        "Contribute to production-grade AI agent benchmarking infrastructure, supporting research and deployment of real-world developer AI systems.",
+      ],
+    },
+
+    {
       company: "Talecto",
       href: "#",
-      badges: [],
+      badges: ["Internship"],
       location: "Remote",
       title: "Backend Engineer",
       logoUrl: "",
       start: "June 2024",
-      end: "Nov 2024",
+      end: "Dec 2024",
       description:
         "I've dedicated myself to honing my skills through hands-on experience in Talecto. My primary contribution where I helped to create backend using Node.js, and where I focused on agile methodology, structured code and proformance optimizations.",
     },

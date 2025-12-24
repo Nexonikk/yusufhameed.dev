@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -66,6 +67,23 @@ export default function RootLayout({
             <Navbar />
           </TooltipProvider>
         </ThemeProvider>
+        <Script
+          id="chatbase-config"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+      window.embeddedChatbotConfig = {
+        chatbotId: "mvPTGTU6DUQ264VSyuB7l",
+        domain: "www.chatbase.co"
+      };
+    `,
+          }}
+        />
+        <Script
+          src="https://www.chatbase.co/embed.min.js"
+          strategy="afterInteractive"
+          defer
+        />
       </body>
     </html>
   );

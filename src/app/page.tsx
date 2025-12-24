@@ -30,16 +30,23 @@ export default function Page() {
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              I&apos;m a fullstack software engineer specializing in building
-              web applications powered by modern JavaScript technologies and
-              AI-driven features.My expertise spans both frontend and backend
-              development, allowing me to create comprehensive web solutions.
+              I&apos;m a software engineer with 1 year of experience working
+              across full-stack and backend systems, with hands-on experience
+              building scalable web applications, backend APIs using
+              JavaScript/TypeScript, Next.js, and Node.js. I also have
+              experience designing, scaling, and optimizing distributed systems
+              using Kafka, RabbitMQ, and Redis, and deploying production
+              workloads on AWS (EC2, S3) with Dockerized environments and CI/CD
+              pipelines.
             </p>
             <p>
-              Over the past year, I&apos;ve worked half year as a Backend
-              developer with Node.js and Express.js, mainly building REST APIs
-              and backend systems at Talecto. I also worked with AWS S3 and
-              followed clean code practices.
+              Currently, I contribute to AI evaluation and benchmarking systems
+              at Xelron (Snorkel AI ecosystem), designing terminal-based backend
+              tasks, Dockerized environments, and deterministic validation
+              pipelines for training and evaluating large language models.
+              Previously, I worked as a Backend Developer at Talecto, building
+              RESTful APIs with Node.js and Express.js, integrating AWS S3, and
+              following clean, scalable backend practices.
             </p>
             <p>
               If you have an exciting project or role that aligns with my
