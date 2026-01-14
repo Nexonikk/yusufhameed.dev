@@ -31,11 +31,10 @@ export default function Page() {
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
               I&apos;m a software engineer with 1 year of experience working
-              across full-stack and backend systems, with hands-on experience
-              building scalable web applications, backend APIs using
+              across full-stack and backend systems, building scalable web applications, backend APIs using
               JavaScript/TypeScript, Next.js, and Node.js. I also have
               experience designing, scaling, and optimizing distributed systems
-              using Kafka, RabbitMQ, and Redis, and deploying production
+              using RabbitMQ, Redis, and deploying production
               workloads on AWS (EC2, S3) with Dockerized environments and CI/CD
               pipelines.
             </p>
@@ -44,9 +43,7 @@ export default function Page() {
               at Xelron (Snorkel AI ecosystem), designing terminal-based backend
               tasks, Dockerized environments, and deterministic validation
               pipelines for training and evaluating large language models.
-              Previously, I worked as a Backend Developer at Talecto, building
-              RESTful APIs with Node.js and Express.js, integrating AWS S3, and
-              following clean, scalable backend practices.
+              Previously, I worked as a Backend Developer at Talecto, building RESTful APIs with Node.js and Express.js, integrating AWS S3 for storage, and using Redis for authentication and performance optimization within Dockerized environment.
             </p>
             <p>
               If you have an exciting project or role that aligns with my
