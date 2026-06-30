@@ -88,10 +88,14 @@ export const DATA = {
       location: "Remote",
       title: "Backend Engineer",
       logoUrl: "",
-      start: "June 2024",
-      end: "Dec 2024",
-      description:
-        "I've dedicated myself to honing my skills through hands-on experience in Talecto. My primary contribution where I helped to create backend using Node.js, and where I focused on agile methodology, structured code and proformance optimizations.",
+      start: "August 2024",
+      end: "March 2025",
+     description: [
+    "Architected and implemented RESTful APIs using Node.js and Express.js for Talecto’s core product services.",
+    "Designed and developed maintainable backend systems following SOLID principles, TypeScript best practices, and modular architecture.",
+    "Integrated AWS S3 for efficient storage and retrieval of large datasets, improving data management and storage efficiency.",
+    "Improved authentication and API performance using Redis caching and deployed services in Dockerized environments.",
+  ],  
     },
   ],
   education: [
